@@ -11,6 +11,8 @@
 		C15A2A8D2ACC855A00F9CF14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A2A8C2ACC855A00F9CF14 /* ContentView.swift */; };
 		C15A2A8F2ACC855B00F9CF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15A2A8E2ACC855B00F9CF14 /* Assets.xcassets */; };
 		C15A2A922ACC855B00F9CF14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15A2A912ACC855B00F9CF14 /* Preview Assets.xcassets */; };
+		C15A2A992ACCA2E400F9CF14 /* FlagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A2A982ACCA2E400F9CF14 /* FlagModel.swift */; };
+		C15A2A9B2ACCBB6900F9CF14 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A2A9A2ACCBB6900F9CF14 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C15A2A8C2ACC855A00F9CF14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C15A2A8E2ACC855B00F9CF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C15A2A912ACC855B00F9CF14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C15A2A982ACCA2E400F9CF14 /* FlagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagModel.swift; sourceTree = "<group>"; };
+		C15A2A9A2ACCBB6900F9CF14 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C15A2A8A2ACC855A00F9CF14 /* WorldMapUIApp.swift */,
 				C15A2A8C2ACC855A00F9CF14 /* ContentView.swift */,
+				C15A2A9A2ACCBB6900F9CF14 /* DetailView.swift */,
+				C15A2A982ACCA2E400F9CF14 /* FlagModel.swift */,
 				C15A2A8E2ACC855B00F9CF14 /* Assets.xcassets */,
 				C15A2A902ACC855B00F9CF14 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15A2A8D2ACC855A00F9CF14 /* ContentView.swift in Sources */,
+				C15A2A9B2ACCBB6900F9CF14 /* DetailView.swift in Sources */,
+				C15A2A992ACCA2E400F9CF14 /* FlagModel.swift in Sources */,
 				C15A2A8B2ACC855A00F9CF14 /* WorldMapUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
